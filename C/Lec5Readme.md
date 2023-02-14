@@ -121,7 +121,7 @@ int main(){
     printf("Z = %d   S = %s",z,s);
     // Prints Z = 5 --> Pass by Value 
     // Prints S = Food -- > arrays are passed by reference 
-  }
+  }```
 
 
 
