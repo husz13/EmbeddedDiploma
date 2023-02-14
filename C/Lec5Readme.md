@@ -106,22 +106,7 @@ int main(){
   * Copies the address of an argument into the formal parameter , Inside the function The adress is used to access the actual parameter in the Calling Function Stack 
   * Any Changes to the parameter Reflect on data in the calling function.
   * Arrays are only Passed by reference 
-  * To Pass a Variable by reference add "&" Before it 
 
-Example : 
-```C
-void doit( int &x ){
-  x = 5;
-}
-
-int main(){
-   int z = 27;
-   doit(z);
-   printf("z is now %d\n", z);
-   // Prints 5
-    return 0;
-}
-```
 
 
 
