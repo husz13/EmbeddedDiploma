@@ -107,6 +107,22 @@ int main(){
   * Any Changes to the parameter Reflect on data in the calling function.
   * Arrays are only Passed by reference 
 
+  Example : 
+
+  ```C 
+  void tryToModify (int x , char text){
+    x = 100 ; 
+    text[0]--;
+  }
+  int main() {
+    int z = 123 ;
+    char s[5] = "Good" ;
+    tryToModify(z,s);
+    printf("Z = %d   S = %s",z,s);
+    // Prints Z = 5 --> Pass by Value 
+    // Prints S = Food -- > arrays are passed by reference 
+  }
+
 
 
 
