@@ -46,7 +46,7 @@ Void print_Hello (void){
     printf("Hello\n");
 }
 ```
-## Function Declaration and Definition :
+### Function Declaration and Definition :
 
 a Function can be defined any where but it must be declared ABOVE The main Function 
 
@@ -82,7 +82,7 @@ int main() {
   return 0;
 }
 ```
-## Pass by Reference & Pass by Value 
+### Pass by Reference & Pass by Value 
 There are two ways to pass parameters in C : 
 1. Pass by Value :
     * Copies The Data From Calling Function Stack to the Function Stack 
