@@ -87,6 +87,7 @@ There are two ways to pass parameters in C :
 1. Pass by Value :
     * Copies The Data From Calling Function Stack to the Function Stack 
     * Any Changes to the parameter have NO affect on data in the calling function.
+    
 Example : 
 ```C
 void doit( int x ){
@@ -106,6 +107,7 @@ int main(){
   * Any Changes to the parameter Reflect on data in the calling function.
   * Arrays are only Passed by reference 
   * To Pass a Variable by reference add "&" Before it 
+
 Example : 
 ```C
 void doit( int &x ){
