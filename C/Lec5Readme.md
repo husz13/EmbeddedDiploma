@@ -51,6 +51,7 @@ Void print_Hello (void){
 a Function can be defined any where but it must be declared ABOVE The main Function 
 
 * Examples :
+
 For code optimization, it is recommended to separate the declaration and the definition of the function Like this :
 
 ```C
