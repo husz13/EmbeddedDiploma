@@ -18,7 +18,7 @@ in this example the variable is already defined elsewhere
 
 ### Structure :
 
-Return Data type func_name(input parameters )
+Return_Data_type func_name(input parameters )
 {
 
 //Function Body
@@ -56,6 +56,7 @@ For code optimization, it is recommended to separate the declaration and the def
 
 ```C
 // Function declaration
+// this is also called a Prototype 
 void myFunction();
 
 // The main method
@@ -65,14 +66,14 @@ int main() {
 }
 
 // Function definition
-void myFunction() {
+void myFunction(void) {
   printf("I just got executed!");
 }
 ```
 But it can also be Written like this : 
 ```C
 // Function declaration and definition 
-void myFunction() {
+void myFunction(void) {
   printf("I just got executed!");
 }
 // The main method
@@ -81,6 +82,47 @@ int main() {
   return 0;
 }
 ```
+## Pass by Reference & Pass by Value 
+There are two ways to pass parameters in C : 
+1. Pass by Value :
+    * Copies The Data From Calling Function Stack to the Function Stack 
+    * Any Changes to the parameter have NO affect on data in the calling function.
+Example : 
+```C
+void doit( int x ){
+  x = 5;
+}
+
+int main(){
+   int z = 27;
+   doit(z);
+   printf("z is now %d\n", z);
+   // Prints 27
+    return 0;
+}
+```    
+2. Pass by Reference :
+  * Copies the address of an argument into the formal parameter , Inside the function The adress is used to access the actual parameter in the Calling Function Stack 
+  * Any Changes to the parameter Reflect on data in the calling function.
+  * Arrays are only Passed by reference 
+  * To Pass a Variable by reference add "&" Before it 
+Example : 
+```C
+void doit( int &x ){
+  x = 5;
+}
+
+int main(){
+   int z = 27;
+   doit(z);
+   printf("z is now %d\n", z);
+   // Prints 5
+    return 0;
+}
+```
+
+
+
 
 
 
