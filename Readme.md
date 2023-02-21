@@ -6,7 +6,7 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
 
 ## Contents :
 
-### First Term ![50%](https://progress-bar.dev/50)
+### First Term ![50%](https://progress-bar.dev/50?title="Progress")
 * Unit 1 : Diploma Prerequisites ![100%](https://progress-bar.dev/100)
 
 * Unit 2: C Programming ![100%](https://progress-bar.dev/100)
@@ -16,5 +16,6 @@ Embedded Engineers Write Code, But Unlike Software Engineers They Need A Deep Un
   * Quiz 1 : 46/60
   * Lecture 4: C Arrays & Strings ![55%](https://progress-bar.dev/55)
   * Quiz 2 : 19/36 
+  * Quiz 3 : 27/40
   * Lecture 5: C Functions ![0%](https://progress-bar.dev/0)
   * Mid Term 1 ![0%](https://progress-bar.dev/0)
